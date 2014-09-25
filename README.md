@@ -10,6 +10,18 @@ is appreciated.
 
 ```cabal install imessage```
 
+Or... in this checkout.
+
+Install the Haskell Platform for OSX http://www.haskell.org/platform/mac.html
+
+Add ```${HOME}/Library/Haskell/bin``` to your path.
+
+```cabal update```
+```cabal sandbox init```
+```cabal install --only-dependencies```
+```cabal build```
+```cp dist/build/Imessage/imessage somewhere```
+
 ## Usage
 
 First up, lets assume you have buddies on your list. There are 2 ways to
@@ -27,11 +39,11 @@ text only friends)
 
 ### Via Fullname
 
-```imessage -b Foo\ Bar -m -- some message```
+```imessage -b Foo\ Bar -m "some message"```
 
 ### Via Phonenumber
 
-```imessage -b 11234567890 -m -- some message```
+```imessage -b 11234567890 -m "some message"```
 
 ## How to run tests
 

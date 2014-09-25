@@ -17,9 +17,13 @@ Install the Haskell Platform for OSX http://www.haskell.org/platform/mac.html
 Add ```${HOME}/Library/Haskell/bin``` to your path.
 
 ```cabal update```
+
 ```cabal sandbox init```
+
 ```cabal install --only-dependencies```
+
 ```cabal build```
+
 ```cp dist/build/Imessage/imessage somewhere```
 
 ## Usage

@@ -27,11 +27,11 @@ text only friends)
 
 ### Via Fullname
 
-```imessage --to Foo\ Bar -m -- some message```
+```imessage -b Foo\ Bar -m -- some message```
 
 ### Via Phonenumber
 
-```imessage --num 11234567890 -m -- some message```
+```imessage -b 11234567890 -m -- some message```
 
 ## How to run tests
 

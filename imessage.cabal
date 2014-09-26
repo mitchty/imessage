@@ -39,4 +39,4 @@ Test-Suite spec
 
 Source-Repository head
   Type:                 git
---  Location:
+  Location:             https://github.com/mitchty/imessage
